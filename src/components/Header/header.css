@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  height: 91px;
+  background-color: #21222a;
+  color: #61dafb;
+  font-size: 23px;
+  font-weight: bold;
+  padding-left: 26px;
+}
+header > p {
+  padding-left: 7px;
+}

@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  height: 459px;
+  background-color: #282d35;
+  color: white;
+}
+
+.h1 {
+  padding-top: 51px;
+  margin-left: 27px;
+  font-size: 39px;
+}
+
+.ul {
+  margin-left: 51px;
+  margin-top: 46px;
+  width: 390px;
+}
+
+.li {
+  list-style-image: url(/src/assets/Ellipse\ 2.png);
+  font-size: 16px;
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+.react_icon {
+  position: absolute;
+  top: 107px;
+  left: 417px;
+}
