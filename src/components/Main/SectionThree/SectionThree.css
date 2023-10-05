@@ -1,0 +1,62 @@
+.sectionThree {
+  padding-left: 37px;
+  padding-bottom: 30px;
+  font-size: 10px;
+  line-height: 110%;
+}
+
+.cardsWrapper {
+  padding-top: 49px;
+  display: flex;
+  gap: 18px;
+  font-size: 12px;
+}
+
+.cardsItem {
+  position: relative;
+}
+
+.cardsItem > p {
+  padding-top: 9px;
+}
+
+.cardsImage {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.btnImage {
+  position: absolute;
+  width: 61px;
+  height: 20px;
+  color: #222;
+  background: #fff;
+  text-align: center;
+  font-size: 10px;
+  line-height: 110%;
+  border: none;
+  border-radius: 2px;
+  top: 6px;
+  left: 6px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.grayText {
+  color: #918e9b;
+}
+
+.specialSymbol {
+  margin: 0 2px;
+}

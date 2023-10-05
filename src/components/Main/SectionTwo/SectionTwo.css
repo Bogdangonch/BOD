@@ -1,0 +1,18 @@
+.sectionTwo {
+  margin-top: 32px;
+  padding-left: 36px;
+}
+
+.h2 {
+  font-size: 36px;
+  line-height: 110%;
+  margin-bottom: 16px;
+}
+
+.paragraf {
+  max-width: 320px;
+  color: #222;
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 1px;
+}

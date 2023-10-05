@@ -1,0 +1,28 @@
+.sectionOne {
+  margin-top: 26px;
+  max-height: 262px;
+}
+
+.blockImage {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+
+.imageItem {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.imageItemOne {
+  padding-top: 29px;
+}
+.imageItemTwo {
+  padding-top: 7px;
+}
+.imageItemThree {
+  padding-top: 36px;
+}
+.imageItemFive {
+  padding-top: 18px;
+}
