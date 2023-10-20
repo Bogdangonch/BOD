@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9e9b9b;
+}
+
+.wrapper {
+  width: 500px;
+  height: 350px;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.wrapper > h1 {
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.wrapper > p {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.wrapper > ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  flex: wrap;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.coin {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: #8cb2d1;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+}
+
+.red {
+  background-color: #ff5733;
+}
+
+.wrapper > button {
+  border-radius: 10px;
+  padding: 10px 35px;
+  background-color: #8a2be2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.finish {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 70px;
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  background-color: #7e95e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+
+.finish-btn {
+  padding: 10px 20px;
+  background-color: #78f79e;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.opacity {
+  opacity: 0.2;
+}
