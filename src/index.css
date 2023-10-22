@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  height: 50%;
+  width: 70%;
+  padding: 15px;
+  background-color: rgb(224, 222, 219);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-item {
+  min-width: 70%;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+.text-item > p {
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgb(234, 233, 233);
+  min-height: 100px;
+  text-align: start;
+  font-size: x-large;
+  color: rgb(58, 56, 56);
+  font-size: 24px;
+}
+
+.btn {
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  align-self: flex-start;
+  border: 2px solid #3498db;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  border-radius: 0.6em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  color: black;
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.btn:active {
+  transform: scale(0.95, 0.95);
+}
