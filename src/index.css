@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #505050;
+  padding: 20px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 65%;
+}
+
+aside {
+  width: 30%;
+}
+aside h3 {
+  color: aquamarine;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+
+main div {
+  position: relative;
+  padding: 15px 15px;
+  background-color: rgb(230, 231, 230);
+  font-size: 1rem;
+  border-radius: 15px;
+  color: rgb(200, 24, 253);
+}
+
+main div p {
+  color: #3498db;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 15px;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+textarea {
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 16px;
+  outline: none;
+}
+.btn {
+  padding: 0.5em;
+  /* align-self: center; */
+  border: 2px solid #3498db;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  border-radius: 0.6em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.btn:hover {
+  color: black;
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.btn:active {
+  transform: scale(0.95, 0.95);
+}
+.btn:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.trash {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: url("./img/trash.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.2s linear;
+}
+.trash:hover {
+  background-image: url("./img/trashhover.svg");
+  background-color: rgb(183, 176, 176);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.clear {
+  padding: 10px 30px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
